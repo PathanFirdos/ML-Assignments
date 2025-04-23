@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['100rs', '10rs', '200rs', '20rs', '500rs', '50rs']
+
+roboflow:
+  workspace: pesuio
+  project: indian-currency-notes-uezrx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pesuio/indian-currency-notes-uezrx/dataset/1
